@@ -2,6 +2,15 @@ package factorial;
 
 import java.util.Scanner;
 
+/*
+ * Factorial
+ *
+ * Given a positive integer n, recursively compute n! (n factorial).
+ * n! = n * (n-1) * (n-2) * ... * 1
+ *
+ * Input:  A positive integer n.
+ * Output: The value of n!.
+ */
 public class Main {
 
     public static int factorial(int n) {

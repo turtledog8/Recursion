@@ -1,16 +1,17 @@
 package bunnyEars;
 
 import java.util.Scanner;
-//Bunny Ears
-//We have a number of bunnies and each bunny has two big floppy ears. We want to compute the total number of ears across all the bunnies recursively (without loops or multiplication).
-//
-//Input
-//On the first line you will be given the number of bunnies.
-//
-//Output
-//On the only output line you should print the number of their ears.
-//
-//        Constraints
+
+/*
+ * Bunny Ears
+ *
+ * We have a number of bunnies and each bunny has two big floppy ears.
+ * Compute the total number of ears across all bunnies recursively
+ * (without loops or multiplication).
+ *
+ * Input:  The number of bunnies.
+ * Output: The total number of ears.
+ */
 public class Main {
 
     public static int bunnyEars(int bunnies) {

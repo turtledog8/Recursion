@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh auth:*)",
+      "Bash(git -C \"C:/Users/stoya/IdeaProjects/Recursion\" init)",
+      "Bash(git -C \"C:/Users/stoya/IdeaProjects/Recursion\" add src/)",
+      "Bash(git -C \"C:/Users/stoya/IdeaProjects/Recursion\" status)",
+      "Bash(git -C \"C:/Users/stoya/IdeaProjects/Recursion\" remote add origin https://github.com/turtledog8/Recursion.git)",
+      "Bash(git -C \"C:/Users/stoya/IdeaProjects/Recursion\" push -u origin master)",
+      "Skill(update-config)"
+    ]
+  }
+}

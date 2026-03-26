@@ -1,14 +1,18 @@
 package bunnyEars2;
 
 import java.util.Scanner;
-//We have bunnies standing in a line, numbered 1, 2, ... The odd bunnies (1, 3, ..) have the normal 2 ears.
-//The even bunnies (2, 4, ..) we'll say have 3 ears, because they each have a raised foot. Recursively return the number of "ears" in the bunny line 1, 2, ... n (without loops or multiplication).
-//
-//Input
-//On the first line you will be given the number of bunnies.
-//
-//Output
-//On the only output line you should print the number of their ears.
+
+/*
+ * Bunny Ears 2
+ *
+ * Bunnies stand in a line numbered 1, 2, 3, ...
+ * Odd-numbered bunnies have 2 ears; even-numbered bunnies have 3 ears.
+ * Recursively return the total number of ears for bunnies 1 through n
+ * (without loops or multiplication).
+ *
+ * Input:  The number of bunnies (n).
+ * Output: The total number of ears.
+ */
 public class Main {
 
     public static int bunnyEars2(int n) {

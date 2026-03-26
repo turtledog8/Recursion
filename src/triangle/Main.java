@@ -1,18 +1,18 @@
 package triangle;
 
 import java.util.Scanner;
-//Triangle
-//We have triangle made of blocks.
-// The topmost row has 1 block, the next row down has 2 blocks,
-// the next row has 3 blocks, and so on. Compute recursively
-// (no loops or multiplication) the total number of blocks in
-// such a triangle with the given number of rows.
-//
-//Input
-//On the first line you will be given the number of rows.
-//
-//Output
-//On the only output line you should print the total number of blocks.
+
+/*
+ * Triangle
+ *
+ * A triangle of blocks has 1 block in the top row, 2 in the next,
+ * 3 in the next, and so on. Recursively compute the total number of
+ * blocks for a triangle with the given number of rows
+ * (no loops or multiplication).
+ *
+ * Input:  The number of rows.
+ * Output: The total number of blocks.
+ */
 public class Main {
 
     public static int triangle(int rows) {

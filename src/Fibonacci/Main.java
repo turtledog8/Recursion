@@ -1,16 +1,17 @@
 package Fibonacci;
 import java.util.Scanner;
-//Fibonacci
-//The Fibonacci sequence is a famous bit of mathematics, and it happens to have a recursive definition. The first two values in the sequence are 0 and 1 (essentially 2 base cases). Each subsequent value is the sum of the previous two values, so the whole sequence is: 0, 1, 1, 2, 3, 5, 8, 13, 21 and so on. Define a recursive fibonacci(n) method that returns the nth Fibonacci number, with n=0 representing the start of the sequence.
-//
-//Input
-//On the first line you will be given n.
-//
-//        Output
-//On the only output line you should print fib(n)
-//
-//Constraints
-//n>=0
+
+/*
+ * Fibonacci
+ *
+ * The Fibonacci sequence starts with 0 and 1; each subsequent value is
+ * the sum of the previous two: 0, 1, 1, 2, 3, 5, 8, 13, 21, ...
+ * Recursively return the nth Fibonacci number, where n=0 is the start.
+ *
+ * Input:       A non-negative integer n.
+ * Output:      The nth Fibonacci number.
+ * Constraints: n >= 0
+ */
 public class Main {
 
     public static long fibonacci(int n) {
